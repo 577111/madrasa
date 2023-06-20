@@ -1,0 +1,141 @@
+ 
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   color:#fff;
+} 
+
+body{
+   background-color:rgba(0, 0, 0, 1)
+}
+ 
+ .navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 3px 5px;
+    background-color: rgb(119, 146, 170);
+   
+ }
+ .navbar h1{
+   
+    font-size: 45px ;
+    text-align:center;
+    text-transform: capitalize;
+    font-weight: 300;
+    display:inline-block;
+    margin:0 98px;
+    letter-spacing:4px;
+    color:azure;
+    text-shadow:2px 2px 33px;
+ }
+
+.navbar img{
+    height: 125px;
+    width:fit-content;
+}
+.navmanue {
+  display:flex;
+  justify-content: center;
+  background-color: antiquewhite;
+
+  }
+.navmanue ul{
+   
+}
+.navmanue ul li{
+display:inline-block;   
+padding:8px;
+margin:0 56px;
+border-bottom:4px solid rgb(243, 243, 245);
+border-radius: 20px; 
+text-shadow:2px 8px 6px rgb(167, 12, 12);
+}
+.navmanue ul li:hover{
+   background-color: rgb(12, 231, 59);
+   text-shadow:2px 8px 6px rgb(167, 12, 12);
+   transition:all 1s;
+   
+   
+   }
+   .navmanue ul li:hover a{
+      color:rgb(80, 17, 226);
+      transition:all 1s;
+      
+      
+      }
+.navmanue ul li a{
+   text-decoration:none;
+   font-size:14pt;
+   color:rgb(100, 49, 240);
+   font-weight: 800;
+}
+
+/* student info */
+
+.studentInfo{
+ display:flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ margin:45px;
+ 
+}
+.studentInfo > div{
+   width:300px;
+   height:300px;
+   background:rgb(211, 200, 200);
+   margin: 6px;
+   border-radius:12px;
+   
+}
+
+.studentInfo > div h1{
+   color: rgb(44, 155, 16);
+   text-align: center;
+   font-weight: 400;
+   border-bottom:1px dotted rgb(69, 10, 206);
+   margin:6px;
+}
+.studentInfo > div li{
+   text-transform: capitalize;
+  margin:7px 7px;
+   list-style-position: inside;
+   list-style:none;
+   background-image:radial-gradient(rgb(36, 185, 73),#8cda79,rgb(223, 22, 162));
+   text-align:center;
+   border-radius: 34px;
+   font-weight:bolder;
+   padding:6px;
+   color:rgb(248, 243, 247);
+   
+}
+
+.studentInfo > div li:hover{
+   background-color: black;
+   color:rgb(230, 17, 212);
+   cursor: pointer;
+   transition:.5s;
+
+ 
+  
+}
+
+
+
+/* teacher */
+.teacher-list{
+   background-color:darkslateblue;
+   margin:0 auto;
+}
+
+.teacher-list table{
+   
+   margin:0 auto;
+}
+
+.teacher-list h1{
+   text-align: center;
+}

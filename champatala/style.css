@@ -134,7 +134,7 @@ border-radius: 20px;
 
 /* teacher */
 .teacher-list{
-   background-color:darkslateblue;
+   background-color:rgb(166, 164, 177);
    margin:0 auto;
 }
 
@@ -145,15 +145,16 @@ border-radius: 20px;
 
 .teacher-list h1{
    text-align: center;
-   color:rgb(236, 224, 230);
+   color:rgb(250, 245, 248);
    border:3px solid white;
    width:300px;
    margin:2px auto;
+   background: #000;
 }
 
 table{
    text-align: center;
-   border:3px solid blanchedalmond;
+   border:3px solid rgb(249, 239, 224);
    border-collapse: collapse;
    font-size: 20px;
    

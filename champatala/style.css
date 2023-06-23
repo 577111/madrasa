@@ -22,6 +22,7 @@ body{
     background-image:linear-gradient(356deg,rgb(50, 85, 190),purple);
     top: 0;
     left:0;
+    z-index: 5;
    box-shadow: 0 1px 5px;
  }
  .para{
@@ -60,6 +61,7 @@ body{
   justify-content: center;
   background-color: rgba(9, 4, 51, 0.993);
   position:sticky;
+  z-index: 1;
   top:125px;
   padding:6px;
   

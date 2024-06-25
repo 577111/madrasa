@@ -1,4 +1,4 @@
- 
+no 
 *{
    margin:0;
    padding:0;
@@ -16,7 +16,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-    
+    width:100%;
     margin: 3px 5px;
     background-color: rgb(119, 146, 170);
    

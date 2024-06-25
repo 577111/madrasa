@@ -8,6 +8,8 @@
 
 body{
    background-color:rgba(0, 0, 0, 1)
+ margin:0;
+ padding:0
 }
  
  .navbar{
@@ -43,6 +45,7 @@ body{
 
   }
 .navmanue ul{
+ max-width:100%
    
 }
 .navmanue ul li{
